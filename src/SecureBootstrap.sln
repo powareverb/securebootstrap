@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureBootstrapWinService", "SecureBootstrapWinService\SecureBootstrapWinService.csproj", "{DC26319E-5CC8-49DE-8B8B-D1148C804537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureBootstrap.Data", "SecureBootstrap.Data\SecureBootstrap.Data.csproj", "{9F16C650-6912-4233-A979-A34BD649A702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC26319E-5CC8-49DE-8B8B-D1148C804537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC26319E-5CC8-49DE-8B8B-D1148C804537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC26319E-5CC8-49DE-8B8B-D1148C804537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC26319E-5CC8-49DE-8B8B-D1148C804537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F16C650-6912-4233-A979-A34BD649A702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F16C650-6912-4233-A979-A34BD649A702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F16C650-6912-4233-A979-A34BD649A702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F16C650-6912-4233-A979-A34BD649A702}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11590737-B325-4C31-A936-62D8535A470F}
+	EndGlobalSection
+EndGlobal

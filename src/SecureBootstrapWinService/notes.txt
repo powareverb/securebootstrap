@@ -1,0 +1,20 @@
+﻿
+To allow secure access to (e.g. OT generated):
+- Git repo
+- Docker image repo
+- etc
+
+- Auth
+
+- Generate items (Need template?):
+    - SSH Key
+    - Passwords for?
+    - Other keys/secrets?
+        - Git personal access token?
+
+consumed based on docker image
+- Request setup based on instance (node names, IP, user, etc)
+- Poll request until authorized or denied?
+- Activate
+    - Pull secrets into e.g. swarm?
+    - Save files to local e.g. share or bootstrap image?
