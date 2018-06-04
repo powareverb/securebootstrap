@@ -16,7 +16,8 @@ namespace SecureBootstrapWinService.Controller
 
         public BootstrapRequest PutRequest(BootstrapRequest reqItem)
         {
-            var db = Database.Opener.OpenFile(_cfg.DatabaseConnection);
+            var db = Database.OpenConnection(_cfg.DatabaseConnection);
+
             var employee = db.BootstrapRequest.Insert(reqItem);
             return reqItem;
         }

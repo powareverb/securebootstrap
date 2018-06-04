@@ -8,5 +8,8 @@ namespace SecureBootstrapWinService.Message.Request
 {
     public class NewBootstrapRequest
     {
+        public string ClusterName { get; internal set; }
+        public string NodeName { get; internal set; }
+        public string MachineId { get; internal set; }
     }
 }

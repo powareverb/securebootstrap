@@ -18,3 +18,5 @@ consumed based on docker image
 - Activate
     - Pull secrets into e.g. swarm?
     - Save files to local e.g. share or bootstrap image?
+
+

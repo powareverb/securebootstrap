@@ -9,7 +9,7 @@
             ret.ApplicationInstanceName = "SecureBootstrap";
             ret.ApplicationHostUrl = "http://localhost:9101";
             //ret.DatabaseConnection = @"Data Source=.\SQLExpress;Initial Catalog=SecureBootstrap;Integrated Security=True";
-            ret.DatabaseConnection = @"SecureBootstrap.db";
+            ret.DatabaseConnection = @"Data Source=app_data\SecureBootstrap.db";
             return ret;
         }
     }

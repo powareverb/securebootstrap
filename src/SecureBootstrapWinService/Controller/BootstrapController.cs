@@ -23,7 +23,10 @@ namespace SecureBootstrapWinService.Controller
             var ret = new NewBootstrapReqResponse();
             var reqItem = new SecureBootstrap.Data.BootstrapRequest()
             {
-
+                RequestId = System.Guid.NewGuid(),
+                ClusterName = req.ClusterName,
+                NodeName = req.NodeName,
+                MachineId = req.MachineId,
             };
             var obj = this.db.PutRequest(reqItem);
             return ret;

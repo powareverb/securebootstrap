@@ -1,0 +1,14 @@
+FluentMigrator
+Nancy
+Nancy.Hosting.Self
+Nancy.Viewengines.Razor
+Newtonsoft.Json
+Serilog
+Serilog.Enrichers.Context
+Serilog.Settings.AppSettings
+Serilog.Sinks.Console
+Simple.Data.Sqlite
+SimpleInjector
+SimpleInjector.Packaging
+Topshelf
+Topshelf.SimpleInjector

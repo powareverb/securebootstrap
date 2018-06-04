@@ -1,0 +1,5 @@
+﻿
+Nuget reinstall
+
+Update-Package -reinstall -ProjectName "SecureBootstrapWinService"
+
